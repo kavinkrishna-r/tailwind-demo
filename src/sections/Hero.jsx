@@ -5,7 +5,8 @@ import { shoes, statistics } from '../constants'
 import { bigShoe1 } from '../assets/images'
 import ShoeCard from '../components/ShoeCard'
 
-const Hero = () => {
+const Hero = () => { 
+
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
   return (
     <section 
